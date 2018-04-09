@@ -1,0 +1,145 @@
+body{*/
+    background-color: white;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "azedo";
+    src: url("../fonts/Azedo-Bold.otf");
+}
+
+@font-face {
+    font-family: "aur";
+    src: url("../fonts/Aur.otf");
+}
+
+#mainContainer {
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#mainContainer2 {
+    width: 100%;
+    position: relative;
+}
+
+#logo {
+    font-size: 2.5em;
+    color: white;
+    font-family: "azedo";
+    float: left;
+    position: relative;
+    left: 30px;
+}
+
+#asterisk {
+    top: 7px;
+    left: 5px;
+    font-size: 0.9em;
+    display: none;
+}
+
+#cloud {
+    top: 11.5px;
+    left: 10px;
+    display: none;
+}
+
+#fire {
+    top: 5px;
+    left: 17px;
+    font-size: 0.7em;
+    display: none;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu ul li {
+    display: inline-flex;
+    color: white;
+    font-family: azedo;
+    font-size: 1.8em;
+    margin-right: 40px;
+    position: relative;
+    top: 10px;
+}
+
+#card {
+    height: 300px;
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 1080px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0;
+}
+
+#cardOverlay {
+    height: 300px;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -1020px;
+}
+
+#postcode h1 {
+    font-family: "aur";
+    font-size: 1.6em;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+
+#postCodeInput {
+    height: 60px;
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    font-size: 2em;
+    margin-left: 30px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-transform: uppercase;
+    display: inline-flex;
+    float: left;
+    display: none;
+}
+
+#button1 {
+    float: left;
+    display: inline-flex;
+    position: relative;
+    top: 50px;
+    left: 15px;
+    height: 60px;
+    width: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#buttonText {
+    position: relative;
+    top: 2px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.menuItem {
+    cursor: pointer;
+}
+
+#vid1 {
+    position: fixed;
+    left: -30px;
+    min-width: 100%;
+    min-height: 108%;
+}
